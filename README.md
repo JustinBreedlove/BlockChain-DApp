@@ -1,4 +1,6 @@
-# Technologies Used
+#Block chain DApp Project
+
+### Technologies Used
 - Blockchain side
 	- Ethereum Smart Contracts
 	- Solidity
