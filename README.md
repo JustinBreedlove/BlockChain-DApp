@@ -19,7 +19,7 @@ Overview:
 1) Running a local blockchain using `Ganache`
 2) Write a smart contract
 3) Build and test if the smart contract works using `Foundry`
-4) Deploy the smart contract to local blockchain using `Foundry`
+4) Deploy the smart contract to the local blockchain using `Foundry`
 5) Import your test account from `Ganache` to `MetaMask`
 6) Create your front-end that interacts with the smart contract functions and `MetaMask` wallet
 
@@ -28,13 +28,10 @@ The `Counter.sol` file which is created by `Foundry`is the smart contract. The l
 You can read about it here: https://docs.soliditylang.org/en/v0.8.21/introduction-to-smart-contracts.html
 
 
-The users (front-end/browser) who are ***connected*** to the blockchain with the `MetaMask ' wallet will be able to get the public values, pay ETH to interact with the smart contract functions, and see their wallet address and ETH balance.
-
-Keep in mind that when accessing the variables, e.g. calling `get` functions from the smart contract, the user does not pay anything. The user only pays, when the state of the smart contract is changed. Such as calling the `setNumber` function.
+The users (front-end/browser) who are ***connected*** to the blockchain with the `MetaMask ' wallet will be able to get the public values, pay ETH to interact with the smart contract functions and see their wallet address and ETH balance.
 
 ---
 # Environment-Setup
-***Note: There are a lot of tools to setup with sometimes a rather long installation/compilation time. Not to mention the learning curve.***
 
 I have included a setup script `setup.sh` to make it easier to set up the project and start working on it.
 To use the script:
@@ -49,8 +46,7 @@ Executable download and run.
 The setup options are the same as in the guide: https://iiiyu.com/2022/10/24/zero-to-one-full-stack-dapp-ethereum-development-based-on-foundry-nextjs-typescript-latest-version/#Setting-up-the-local-chain-for-development
 
 ---
-# Help-and-Tips
-### Helper Functions
+# Helper Functions
 You can call the helper functions from the `front-end` directory using `pnpm`.
 The list is as follows:
 
@@ -66,7 +62,6 @@ For other functionalities, you can use `foundry` tools from the `chain-end` dire
 
 ### Documentation
 Links:
-- Must read: https://iiiyu.com/2022/10/24/zero-to-one-full-stack-dapp-ethereum-development-based-on-foundry-nextjs-typescript-latest-version
 - Deploying Smart Contracts using Foundry `forge`: https://book.getfoundry.sh/forge/deploying
 - Accessing functions and variables with Foundry `cast`: https://book.getfoundry.sh/cast/
 - Ethers library docs: https://docs.ethers.org/v6/getting-started/
