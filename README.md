@@ -1,5 +1,4 @@
-#Block chain DApp Project
-
+# Blockchain DApp Project
 ### Technologies Used
 - Blockchain side
 	- Ethereum Smart Contracts
