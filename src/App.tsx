@@ -58,15 +58,6 @@ function App() {
     }
   }
 
-  /*const handleSpliceArray = async () => {
-    if (provider) {
-      const signer = await provider.getSigner()
-      const counter = Counter__factory.connect(contractAddress, signer)
-      const newArray = await counter.spliceArray()
-      console.log(newArray)
-    }
-  }*/
-
   return (
     <>
     <div className="App">
